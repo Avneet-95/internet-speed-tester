@@ -23,18 +23,18 @@
             <img src="gp.png">
             <img src="tw.png">
         </div>
-        <form id="Login"class="input-group" action="layout.html">
+        <form id="Login"class="input-group" action="layout1.html">
             <input type="text" class="input-field" placeholder="User ID" required>
             <input type="password"  class="input-field" placeholder="Enter password" required>
             <input type="checkbox" class="checkbox"><span>Remember password</span>
             <button type="submit" class="submit-btn" >Log In</button>
         </form>
-        <form id="Register"class="input-group">
-            <input type="text" class="input-field" placeholder="User ID" required>
-            <input type="email" class="input-field" placeholder="Email-ID" required>
-            <input type="password" class="input-field" placeholder="Enter password" required>
+        <form id="Register"class="input-group" action="insert.php" method="post">
+            <input type="text" class="input-field" name="userid" placeholder="User ID" required>
+            <input type="email" class="input-field" name="emailid" placeholder="Email-ID" required>
+            <input type="password" class="input-field"  name="password" placeholder="Enter password" required>
             <input type="checkbox" class="checkbox"><span>I Agree to terms and conditions</span>
-            <button type="submit" class="submit-btn" >Register</button>
+            <button type="submit" name="submit" class="submit-btn" >Register</button>
         </form>
         </div>
        

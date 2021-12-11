@@ -1,6 +1,6 @@
 <?php
 $dbHost ="localhost";
-$dbUser="test";
+$dbUser="root";
 $dbPassword ="";
 $dbName ="register";
 $conn =mysqli($dbHost,$dbUser,$dbPassword,$dbName);

@@ -4,7 +4,7 @@
 <body>
 <?php
 $server ="localhost";
-$username ="test";
+$username ="root";
 $password ="";
 $dbname ="register";
 $conn= mysqli_connect($server,$username,$password,$dbname);
